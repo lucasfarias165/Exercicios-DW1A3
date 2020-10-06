@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+  <meta name="viewport" content="width=device-width">
+  <script>
+	function corrgir() {
+  if (document.getElementById('letraA').checked){
+   alert("Volte para a 1a serie!");
+  } else if (document.getElementById('letraB').checked){
+  alert("Correto!");
+  } else if (document.getElementById('letraC').checked){
+  alert("MEU DEUS!");
+  } else {
+  alert("Não da pra arriscar nada?!?!");
+  }
+}
+  </script>
+</head>
+<body>
+<center><h1> Atividade 17b</h1></center>
+<p>Quantos anos tem um seculo?</p><br>
+<input type="radio" id="letraA" name="questao" value="letraA">
+<label for="letraA">a) 10 anos</label><br>
+<input type="radio" id="letraB" name="questao" value="letraB">
+<label for="letraB">b) 100 anos</label><br>
+<input type="radio" id="letraC" name="questao" value="letraC">
+<label for="letraC">c) 1000 anos</label><br>
+<input type="radio" id="letraD" name="questao" value="letraD">
+<label for="letraD">d) Nao sei</label><br>
+<button onclick="corrgir()">Corrigir</button>
+
+
+</body>
+</html>
